@@ -101,6 +101,7 @@
 
     .foto-toko {
         float: none;
+        margin: 0 auto;
     }
 
     
@@ -127,7 +128,7 @@
     }
 
     .jumbotron-teks p {
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .foto-toko {
