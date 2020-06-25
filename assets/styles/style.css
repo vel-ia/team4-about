@@ -120,18 +120,19 @@
         margin-top: 0px;
         padding: 30px;
         padding-top: 15px;
+        margin: 0 auto;
     }
 
     .judul {
-        font-size: 20px;
-    }
-
-    .jumbotron-teks p {
         font-size: 15px;
     }
 
+    .jumbotron-teks p {
+        font-size: 10px;
+    }
+
     .foto-toko {
-        width: 200px;
+        width: 150px;
         margin: 40px 30px;
         float: none;
     }
