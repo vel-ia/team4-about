@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+.about {
+    box-sizing: border-box;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    margin: 20px;
+    text-align: center;
+    height: 550px;
+}
+
+.foto-toko {
+    width: 250px;
+    border: 15px solid #fff;
+    border-radius: 3px;
+    box-shadow: 1em 1em 2em .25em rgba(0,0,0,.2);
+    margin: 10px 70px;
+    float: left;
+
+}
+
+.judul {
+    font-size: 30px;
+    font-weight: bolder;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding-bottom: 10px;
+}
+
+.jumbotron {
+    height: 250px;
+    padding: 50px 0 200px 0;
+    background-size: cover;
+    background-position-y: center;
+    background-image: url("/assets/img/background.jpg");
+    text-align: left;
+    font-size: 18px;
+}
+
+.jumbotron-teks {
+    background-color: rgba(248, 197, 193, 0.8);
+    margin-top: 20px;
+    line-height: 25px;
+    margin: 40px;
+    padding: 40px;
+    padding-right: 60px;
+}
+
+.jumbotron-teks p{
+    margin-top: 40px;
+}
+
+
+/* Tablet */ 
+@media screen and (max-width: 601px) {
+    .jumbotron {
+        height: 480px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .jumbotron-teks {
+        margin: 30px;
+        padding: 30px;
+        padding-top: 10px;
+    }
+
+    .foto-toko {
+        float: none;
+    }
+
+    
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .jumbotron {
+        height: 580px;
+        margin-bottom: 30px;
+        padding: 30px 0 200px 0;
+        text-align: center;
+    }
+
+    .jumbotron-teks {
+        margin-top: 0px;
+        padding: 30px;
+        padding-top: 15px;
+    }
+
+    .foto-toko {
+       margin-bottom: 40px;
+       margin-top: 30px;
+       float: none;
+    }
+}
