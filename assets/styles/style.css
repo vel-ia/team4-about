@@ -37,7 +37,9 @@ body {
 .jumbotron {
     height: 250px;
     padding: 30px 30px 130px 30px;
-    background: -webkit-linear-gradient(top, #e0e0e0, rgb(255, 255, 255));
+    background-image:url("/assets/img/background.jpg");
+    background-size: cover;
+    background-position-y: center;
     text-align: left;
     font-size: 18px;
 }
