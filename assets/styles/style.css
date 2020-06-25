@@ -13,11 +13,11 @@
 }
 
 .foto-toko {
-    width: 250px;
-    border: 15px solid #fff;
+    width: 230px;
+    border: 13px solid #fff;
     border-radius: 3px;
     box-shadow: 1em 1em 2em .25em rgba(0,0,0,.2);
-    margin: 10px 30px;
+    margin: 5px 30px;
     float: left;
 
 }
@@ -25,25 +25,25 @@
 .judul {
     font-size: 30px;
     font-weight: bolder;
-    border-bottom: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(11,11,51);
     padding-bottom: 10px;
 }
 
 .jumbotron {
     height: 250px;
-    padding: 30px 0 150px 0;
-    background-size: cover;
-    background-position-y: center;
-    background-image: url("https://images.unsplash.com/photo-1512436991641-6745cdb1723f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+    padding: 30px 0 130px 0;
+    background: -webkit-linear-gradient(top, #e0e0e0, rgb(255, 255, 255));
     text-align: left;
     font-size: 18px;
 }
 
 .jumbotron-teks {
-    background-color: rgba(248, 197, 193, 0.8);
+    color: rgb(11, 11, 51);
+    background-color: rgb(210, 216, 245);
+    border: 1px solid rgb(0, 0, 0);
     margin-top: 20px;
     line-height: 25px;
-    margin: 0 auto;
+    margin: 40px;
     padding: 40px;
     padding-right: 60px;
 }
@@ -101,7 +101,6 @@
 
     .foto-toko {
         float: none;
-        margin: 0 auto;
     }
 
     
@@ -128,12 +127,12 @@
     }
 
     .jumbotron-teks p {
-        font-size: 13px;
+        font-size: 15px;
     }
 
     .foto-toko {
         width: 200px;
-        margin: 0 auto;
+        margin: 40px 30px;
         float: none;
     }
 }
