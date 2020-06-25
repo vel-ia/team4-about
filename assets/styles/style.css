@@ -43,7 +43,7 @@
     border: 1px solid rgb(0, 0, 0);
     margin-top: 20px;
     line-height: 25px;
-    margin: 40px;
+    margin: 0 auto;
     padding: 40px;
     padding-right: 60px;
 }
@@ -94,7 +94,7 @@
     }
 
     .jumbotron-teks {
-        margin: 30px;
+        margin: 0 auto;
         padding: 30px;
         padding-top: 10px;
     }
