@@ -42,14 +42,14 @@
     color: rgb(11, 11, 51);
     background-color: rgb(210, 216, 245);
     border: 1px solid rgb(0, 0, 0);
-    line-height: 25px;
+    line-height: 20px;
     margin: 0 auto;
     padding: 40px;
     padding-right: 60px;
 }
 
 .jumbotron-teks p{
-    margin-top: 40px;
+    margin-top: 25px;
 }
 
 
