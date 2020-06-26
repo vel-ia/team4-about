@@ -132,6 +132,12 @@ a.active, a:hover{
 
 /*_____________________________RESPONSIVE MEDIA QUERIES________________________________*/
 
+@media (max-width: 700px){
+    .checkbtn {
+        display: block;
+    }
+}
+
 @media (max-width :952px){
     label.logo{
         font-size: 30px;
@@ -141,7 +147,7 @@ a.active, a:hover{
     nav ul li a {
         font-size: 16px;
     }
-
+}
 
 @media screen and (min-width: 1600px) {
     .jumbotron {
@@ -180,14 +186,14 @@ a.active, a:hover{
 
 
     .jumbotron {
-        height: 370px;
-        padding: 50px 30px 100px 30px;
+        height: 400px;
+        padding: 50px 50px 100px 30px;
         margin-bottom: 30px;
         text-align: left;
     }
 
     .jumbotron-teks {
-        padding: 30px;
+        padding: 50px;
         margin-top: 30px;
     }
     
@@ -201,7 +207,7 @@ a.active, a:hover{
 
     .foto-toko {
         float: left;
-        width: 200px;
+        width: 230px;
     }
 
 }
