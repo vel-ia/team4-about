@@ -98,14 +98,14 @@ a.active, a:hover{
 
 }
 
-.judul {
+.jumbotron-teks .judul {
     font-size: 30px;
     font-weight: bold;
     border-bottom: 1px solid rgb(11,11,51);
     padding-bottom: 10px;
 }
 
-.jumbotron {
+#about .jumbotron {
     height: 370px;
     padding: 30px 30px 100px 30px;
     background-image:url("../img/background.jpg");
@@ -163,7 +163,7 @@ a.active, a:hover{
         padding: 40px;
     }
 
-    .judul {
+   .jumbotron-teks .judul {
         font-size: 40px;
     }
 
@@ -201,7 +201,7 @@ a.active, a:hover{
         font-size: 18px;
     }
     
-    .judul {
+    .jumbotron-teks .judul {
         font-size: 25px;
     }
 
@@ -265,7 +265,7 @@ a.active, a:hover{
         margin: 0;
     }
 
-    .judul {
+    .jumbotron-teks .judul {
         font-size: 20px;
         margin: 10px 0px;
     }
